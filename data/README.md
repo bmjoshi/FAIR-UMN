@@ -13,7 +13,7 @@ This folder contains Python code/Jupyter notebooks for data preprocessing, inclu
 
 *Note*: 
 
-(1) To use these Jupyter notebooks, you should: first, place these 3 Jupyter notebooks in a folder named `Data_Preprocessing`; second, create a folder named `raw_txt` and put your raw dataset into it.
+(1) To use these Jupyter notebooks, you should: first, place these 3 Jupyter notebooks in a folder named `data`; second, create a folder named `raw_txt` and put your raw dataset into it.
 
 (2) When use these Jupyter notebooks, the suggested order should be: *1_txt2csv.ipynb* -> *2_prepare_dataset.ipynb* -> *3_features_analysis.ipynb*.  
 
@@ -80,7 +80,7 @@ Given the dataset we have described above, the problems are:
 
   
 
-For more details about the problems and the neural network model we used, please check our [complementary document](https://www.overleaf.com/project/60db4e3f24f55f3c4f43e993) and the Jupyter notebooks in [DNN_Models](https://github.com/taihui/cdms_fair/tree/main/DNN_Models). 
+For more details about the problems and the neural network model we used, please check our [complementary document](https://github.com/ml-deepai/FAIR-UMN/blob/main/doc/FAIR%20Document%20-%20Identifying%20Interaction%20Location%20in%20SuperCDMS%20Detectors.pdf) and the Jupyter notebooks in [src](https://github.com/ml-deepai/FAIR-UMN/tree/main/src). 
 
 
 
