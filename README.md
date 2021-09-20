@@ -12,7 +12,7 @@ We also have a project web-page which can be accessed via [this link](https://ml
 
 
 
-This repository includes the following folders and/or files. For *folders*, we provide a respective *Readme* document inside. The structure of folders is shown below:
+This repository includes the following folders and/or files. For *folders*, we provide a respective *Readme* document inside. The structure of folders is shown below: <font color=#008000>Test</font>
 
 ```
 .
