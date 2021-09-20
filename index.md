@@ -81,4 +81,4 @@ In this project, we address the problem of accurately reconstruct the locations 
 
 ## Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://github.com/ml-deepai/FAIR-UMN/blob/main/doc/FAIR%20Document%20-%20Identifying%20Interaction%20Location%20in%20SuperCDMS%20Detectors.pdf) or [contact support](https://) and we’ll help you sort it out.
+Having trouble with codes or setting up? Check out our [documentation](https://github.com/ml-deepai/FAIR-UMN/blob/main/doc/FAIR%20Document%20-%20Identifying%20Interaction%20Location%20in%20SuperCDMS%20Detectors.pdf) or [contact support](https://) and we’ll help you sort it out.
