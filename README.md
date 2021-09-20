@@ -49,6 +49,9 @@ This repository includes the following folders and/or files. For *folders*, we p
 |
 |
 └── fair_cpu.yml                          /* The YML file to create a CPU execution environment.
+|
+|
+└── LICENSE                               /* The MIT LICENSE.
 
 
 ```
