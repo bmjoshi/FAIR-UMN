@@ -86,27 +86,27 @@ Below, we provide more details about each folder.
    
 7. Install scikit-learn
 
- `pip install scikit-learn`
+   `pip install scikit-learn`
 
 8. Install pandas
 
- `pip install pandas`
+   `pip install pandas`
 
 9. Install matplotlib
 
- `pip install matplotlib`
+   `pip install matplotlib`
  
 10. Install numpy
 
- `pip install numpy`
+   `pip install numpy`
  
 11. Install seaborn
 
- `pip install seaborn`
+   `pip install seaborn`
  
 12. Install tqdm
 
- `pip install tqdm`
+   `pip install tqdm`
 
 13. You are now ready to explore the codes/models! Please remember to follow this order: *data*->*src*->*analysis*
 
