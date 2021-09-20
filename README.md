@@ -107,8 +107,12 @@ Below, we provide more details about each folder.
 12. Install tqdm
 
     `pip install tqdm`
+    
+13. Install Jupyter notebook
 
-13. You are now ready to explore the codes/models! Please remember to follow this order: *data*->*src*->*analysis*
+    `pip install notebook`
+
+14. You are now ready to explore the codes/models! Please remember to follow this order: *data*->*src*->*analysis*
 
    
 *Note*: 
