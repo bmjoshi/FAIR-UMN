@@ -9,6 +9,8 @@ This folder contains Python code/Jupyter notebooks for analyzing the prediction 
 
 - **1_statistical_info.ipynb**: 1) summarizing the RMSE for training/validation/test set; 2) getting statistical information (mean and standard deviation) for these predictions. 
 
+- **2_visualization.ipynb**: visualize the histogram of predictions made by the deep neural network models.
+
   
 
 To use this Jupyter notebook, you only need to set three hyper-parameters:
