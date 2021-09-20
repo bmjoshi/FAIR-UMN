@@ -60,28 +60,57 @@ Below, we provide more details about each folder.
 
 1. Get and clone the github repository:
 
-   `git clone https://github.com/taihui/cdms_fair`
+   `git clone https://github.com/ml-deepai/FAIR-UMN`
 
-2. Switch to `cdms_fair` :
+2. Switch to `FAIR-UMN` :
 
-   `cd XXX/cdms_fair`  (*Note*: `XXX` here means the upper directory of `cdms_fair`. For example, if you clone `cdms_fair` under `/home/Download`, then you should replace `XXX` with `/home/Download`.)
+   `cd XXX/FAIR-UMN`  (*Note*: `XXX` here indicates the upper directory of `FAIR-UMN`. For example, if you clone `FAIR-UMN` under `/home/Download`, then you should replace `XXX` with `/home/Download`.)
 
 3. Deactivate conda base environment first you are in (otherwise, go to step 4 direclty):
 
    `conda deactivate`
 
-4. Install conda environment:
+4. Create a new conda environment:
 
-   `conda env create -f fair.yml`
+   `conda create -n fair_umn python=3.6`
 
 5.  Activate conda environment:
     
-    `conda activate fair`
+    `conda activate fair_umn`
 
-6. You are now ready to explore the codes! Please remember to follow this order: *Data_Preprocessing*->*DNN_Models*->*Results_Analysis*
+6. Install Pytorch (choose GPU or CPU version according to your computational resources):
+
+   GPU version run: `conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch`
+   
+   CPU version run: `conda install pytorch torchvision torchaudio cpuonly -c pytorch`
+   
+7. Install scikit-learn
+
+ `pip install scikit-learn`
+
+8. Install pandas
+
+ `pip install pandas`
+
+9. Install matplotlib
+
+ `pip install matplotlib`
+ 
+10. Install numpy
+
+ `pip install numpy`
+ 
+11. Install seaborn
+
+ `pip install seaborn`
+ 
+12. Install tqdm
+
+ `pip install tqdm`
+
+13. You are now ready to explore the codes/models! Please remember to follow this order: *data*->*src*->*analysis*
 
    
-
 *Note*: 
 1) To install Anaconda, please follow its [official guideline](https://docs.anaconda.com/anaconda/user-guide/getting-started/).
 2) We test our model on Ubuntu 20.04.
