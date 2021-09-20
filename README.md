@@ -42,7 +42,14 @@ This repository includes the following folders and/or files. For *folders*, we p
 |   └── README.md  
 |
 |
-└── doc                                   /* documents for our project.
+└── doc                                   /* Documents for our project.
+|
+|
+└── fair_gpu.yml                          /* The YML file to create a GPU execution environment.
+|
+|
+└── fair_cpu.yml                          /* The YML file to create a CPU execution environment.
+
 
 ```
 
@@ -62,11 +69,37 @@ We provided two options for users to set up the execution environment:
 - we provide the envrionment YML file so that one can set up the execution envrionment with it direclty;
 - we provide the detailed steps and commands to install each required package. 
 
-### Set Up From the YML File
+### Set up from the YML file
+
+1. Get and clone the github repository:
+
+   `git clone https://github.com/ml-deepai/FAIR-UMN`
+
+2. Switch to `FAIR-UMN` :
+
+   `cd XXX/FAIR-UMN`  (*Note*: `XXX` here indicates the upper directory of `FAIR-UMN`. For example, if you clone `FAIR-UMN` under `/home/Download`, then you should replace `XXX` with `/home/Download`.)
+
+3. Deactivate conda base environment first you are in (otherwise, go to step 4 direclty):
+
+   `conda deactivate`
+
+4. Create a new conda environment with the YML file (choose GPU or CPU version according to your computational resources):
+
+    GPU version run: `conda env create -f fair_gpu.yml`
+   
+    CPU version run: `conda env create -f fair_cpu.yml`
+
+5.  Activate conda environment:
+    
+    `conda activate fair_gpu` (If you choose the GPU version in Step4)
+    
+    `conda activate fair_cpu` (If you choose the CPU version in Step4)
+
+6. You are now ready to explore the codes/models! Please remember to follow this order: *data*->*src*->*analysis*
 
 
 
-### Set Up From Source
+### Set up from source
 
 1. Get and clone the github repository:
 
