@@ -99,7 +99,7 @@ We provided two options for users to set up the execution environment:
 
 
 
-### Set up from source
+### Set up from the source
 
 1. Get and clone the github repository:
 
