@@ -58,6 +58,16 @@ Below, we provide more details about each folder.
 
 ## Get Startted
 
+We provided two options for users to set up the execution environment: 
+- we provide the envrionment YML file so that one can set up the execution envrionment with it direclty;
+- we provide the detailed steps and commands to install each required package. 
+
+### Set Up From the YML File
+
+
+
+### Set Up From Source
+
 1. Get and clone the github repository:
 
    `git clone https://github.com/ml-deepai/FAIR-UMN`
