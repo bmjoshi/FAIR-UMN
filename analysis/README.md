@@ -18,7 +18,7 @@ To use this Jupyter notebook, you only need to set three hyper-parameters:
 -  *layer_num* : including all *layer_num* you have set up when training the deep neural network models.
 -  *hidden_dim*: including all *hidden_dim* you have set up when training the deep neural network models.
 -  *held_out_positions*： the positions that are held out for test.
-- *root_dir*: the directory where the prediction results are located. By default, it is `DNN_Models/DNN_Regression/deepnn_results/test_results`.
+- *root_dir*: the directory where the prediction results are located. By default, it is `src/DNN_Regression/deepnn_results/test_results`.
 
 After running *1_statistical_info.ipynb*， you will get the result in `stat_results/stat_info.csv`.
 
