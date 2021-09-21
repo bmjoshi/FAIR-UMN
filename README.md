@@ -112,7 +112,7 @@ We provided two options for users to set up the execution environment:
 
    `cd XXX/FAIR-UMN`  (*Note*: `XXX` here indicates the upper directory of `FAIR-UMN`. For example, if you clone `FAIR-UMN` under `/home/Download`, then you should replace `XXX` with `/home/Download`.)
 
-3. Deactivate conda base environment first you are in (otherwise, go to step 4 direclty):
+3. Deactivate conda base environment first you are in (otherwise, go to step 4 direclty) (We use [Anaconda3](https://www.anaconda.com/products/individual-d)):
 
    `conda deactivate`
 
