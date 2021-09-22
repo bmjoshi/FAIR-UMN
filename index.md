@@ -11,6 +11,8 @@ In this project, we address the problem of accurately reconstruct the locations 
 
 ### Detector Information
 
+A prototype SuperCDMS germanium detector was tested at the University of Minnesota with a radioactive source mounted on a movable stage that can scan from the edge to the center of the detector. The detector is disk-shaped with sensors placed on the top and bottom surfaces to detect the particles emitted by the radioactive source, which is shown in Figure 1.
+
 <div align="center">
 <figure><img src="figures/detector_photo.jpg" width="456"></figure>
 <br>
