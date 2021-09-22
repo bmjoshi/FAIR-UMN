@@ -31,22 +31,18 @@ the sensor. The sensors are grouped into six regions on each side of the detecto
 
 </div>
 
-
+<br>
 <div align="center">
 <figure><img src="figures/run73_source_positions.png" width="356"></figure>
 <br>
 <figcaption>Figure 3: nteraction locations included in the dataset.</figcaption>
-
+</div>
 
 
 ### Data from the Detector
+For each interaction a set of parameters was extracted from the signals from each of the five sensors. These parameters represent information known to be sensitive to interaction location, including the relative timing between pulses in different channels, and features like the pulse shape. The relative
+amplitudes of the pulses are also relevant but due to instabilities in amplification during the test this data is not included. The parameters included for each interaction are illustrated in Figure 4 and also see our [document](https://github.com/ml-deepai/FAIR-UMN/blob/main/doc/FAIR%20Document%20-%20Identifying%20Interaction%20Location%20in%20SuperCDMS%20Detectors.pdf) for details.
 
-
-</div>
-
-<br>
-<br>
-<br>
 
 <div align="center">
 <figure><img src="figures/r73_pulse_c_pos9_ev1253_starttime.png" width="300"><img src="figures/r73_pulse_c_pos9_ev1253_shapequants3.png" width="280"></figure>
