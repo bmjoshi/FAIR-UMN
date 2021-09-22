@@ -56,6 +56,9 @@ amplitudes of the pulses are also relevant but due to instabilities in amplifica
 ## Machine Learning Solution
 
 ### Dataset for Machine Learning
+We need to a large number of (x,y) paris to train our machine learning model. In our current experimental data, we have 19 informative features extracted
+from 5 observed signals (pulses) and 13 different interaction locations (see our [document](https://github.com/ml-deepai/FAIR-UMN/blob/main/doc/FAIR%20Document%20-%20Identifying%20Interaction%20Location%20in%20SuperCDMS%20Detectors.pdf) for details). In total, we obtain 7151 (x, y) pairs, of which the details are shown in Table 1. We further split our dateset to *Model-learning subset (MLS)* and *Held-out subset (HOS)*, of which the detailed definitions are provided in our [document](https://github.com/ml-deepai/FAIR-UMN/blob/main/doc/FAIR%20Document%20-%20Identifying%20Interaction%20Location%20in%20SuperCDMS%20Detectors.pdf).
+
 <div align="center">
 <figure><img src="figures/dnn_dataset.png" width="456"></figure>
  <br>
@@ -63,6 +66,9 @@ amplitudes of the pulses are also relevant but due to instabilities in amplifica
 </div>
 
 ### Deep Neural Network Model
+We implement our neural network with Pytorch 1.9.0 3 . The framework of our neural network model is shown in Figure 5. It is a fully-connected network with non-linearity activation functions. In particular, in each hidden layer except the output layer, we employ a linear layer followed by the batch normalization, leaky rectified activation, and dropout. For the output layer, we simply pass the learned features through a linear layer and obtain its prediction directly. For other settings, please refer to our [document](https://github.com/ml-deepai/FAIR-UMN/blob/main/doc/FAIR%20Document%20-%20Identifying%20Interaction%20Location%20in%20SuperCDMS%20Detectors.pdf).
+
+
 <div align="center">
 <figure><img src="figures/dnn.png" width="356"></figure>
  <br>
@@ -71,6 +77,10 @@ amplitudes of the pulses are also relevant but due to instabilities in amplifica
 </div>
 
 ### Results of Deep Neural Network Models
+
+We show the test performance on our test set (held-out subset) in Table 2. We can observe that simply increasing the model complexity does not boost the performance on our dataset, rather it hurts the performance. Therefore, we argue that to achieve better performance, it is worth exploring novel network architectures or training paradigms. For more experimental results, please refer to our [document](https://github.com/ml-deepai/FAIR-UMN/blob/main/doc/FAIR%20Document%20-%20Identifying%20Interaction%20Location%20in%20SuperCDMS%20Detectors.pdf).
+
+
 <div align="center">
 <figure><img src="figures/dnn_results.png" width="456"></figure>
  <br>
