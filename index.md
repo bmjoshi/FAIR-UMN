@@ -7,7 +7,7 @@ This is the project web-page for our project---FAIR-UMN: Identifying Interaction
 In this project, we address the problem of accurately reconstruct the locations of interactions in theSuperCDMS detectors using machine learning methods. The approach is to use data collected with aradioactive source at known locations to train and qualify machine learning models.
 
 
-## Detector and Data Description
+## Detector and Its Data 
 
 ### Detector Information
 
@@ -32,13 +32,15 @@ the sensor. The sensors are grouped into six regions on each side of the detecto
 </div>
 
 
-
-### Data Description
-
 <div align="center">
 <figure><img src="figures/run73_source_positions.png" width="356"></figure>
 <br>
 <figcaption>Figure 3: nteraction locations included in the dataset.</figcaption>
+
+
+
+### Data from the Detector
+
 
 </div>
 
